@@ -30,7 +30,7 @@ Options:
 
 
 ```bash
-% ./javajam run --help
+% ./bin/javajam run --help
 
 ❤ JavaJAM
 

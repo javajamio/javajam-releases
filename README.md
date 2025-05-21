@@ -1,5 +1,7 @@
 # JavaJAM releases
 
+There is no source code available in this repository.
+
 # Basic Usage
 
 ```bash
@@ -51,5 +53,3 @@ Options:
   -h, --help                         Print help (see more with '--help')
 
 ```
-
-There is no source code available in this repository.

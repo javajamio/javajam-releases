@@ -2,6 +2,15 @@
 
 There is no source code available in this repository.
 
+# Prerequisites
+
+- JDK 21+
+
+```bash
+# install Java 21+ (if needed)
+sudo apt install openjdk-21-jdk
+```
+   
 # Basic Usage
 
 ```bash

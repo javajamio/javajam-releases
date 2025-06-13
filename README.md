@@ -30,7 +30,8 @@ Options:
   -c, --config-path <CONFIG_PATH>    Base config path
   --chain <CHAIN>                    Chain to run. "dev", or the path of a chain spec file [default: dev]
   -p, --parameters <PARAMETERS>      Parameter override. If none is specified, the parameters are determined by the `chain` [possible values: full, tiny]
-  -l, --log-level <LOG_LEVEL>       Change logging level [default: info] [possible values: trace, info, error]
+  -l, --log-level <LOG_LEVEL>        Change logging level [default: info] [possible values: trace, info, error]
+  --log-file <LOG_FILE>              Log file [default: logs/javajam.log]
   -h, --help                         Print help (see more with '--help')
   -V, --version                      Print version
 ```
@@ -54,6 +55,7 @@ Options:
   --peer-id <PEER_ID>                Peer ID of this node.
                                      If not specified, a new peer ID will be generated.
   --external-ip <EXTERNAL_IP>        External IP of this node, as used by other nodes to connect.
+  --telemetry <TELEMETRY>            IP and port of JAM Tart (Telemetry) [format: HOST:PORT]
   --listen-ip <LISTEN_IP>            IP address to listen on [default: 127.0.0.1]
   --port <PORT>                      UDP port to listen on [default: 0]
   --rpc-listen-ip <RPC_LISTEN_IP>    IP address for RPC server to listen on [default: 127.0.0.1]

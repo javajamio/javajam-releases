@@ -56,7 +56,6 @@ Options:
   --log-file <LOG_FILE>              Log file [default: logs/javajam.log]
   --peer-id <PEER_ID>                Peer ID of this node
   --external-ip <EXTERNAL_IP>        External IP address
-  --telemetry <TELEMETRY>            IP and port of JAM Tart (Telemetry) [format: HOST:PORT]
   --listen-ip <LISTEN_IP>            IP to listen on [default: 127.0.0.1]
   --port <PORT>                      UDP port [default: 0]
   --rpc-listen-ip <RPC_LISTEN_IP>    RPC IP [default: 127.0.0.1]

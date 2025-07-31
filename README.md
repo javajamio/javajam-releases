@@ -64,3 +64,21 @@ Options:
   -h, --help                         Print help
 
 ```
+
+
+# Fuzzer target options
+
+
+```bash
+% ./bin/javajam fuzz --help
+
+❤ JavaJAM
+
+Usage: ./bin/javajam fuzz <FUZZ_SOCKET>
+
+Arguments:
+  <FUZZ_SOCKET>  Named unix socket for fuzzer to connect too. Ex: /tmp/jam_target.sock
+  -h, --help                         Print help
+
+
+```

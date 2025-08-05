@@ -10,7 +10,15 @@ There is no source code available in this repository.
 # install Java 21+ (if needed)
 sudo apt install openjdk-21-jdk
 ```
+# Installation
+
+```bash
+# Download latest release (additional OS versions are available as well)
+curl -O -L https://github.com/javajamio/javajam-releases/releases/latest/download/javajam-linux-x86_64.zip
    
+unzip javajam-linux-x86_64.zip
+```
+
 # Basic Usage
 
 ```bash

@@ -4,7 +4,7 @@ There is no source code available in this repository.
 
 # Prerequisites
 
-- JDK 21+
+- JDK 25+
 
 ```bash
 # install Java 25+ (if needed)

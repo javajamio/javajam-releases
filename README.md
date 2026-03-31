@@ -7,8 +7,8 @@ There is no source code available in this repository.
 - JDK 21+
 
 ```bash
-# install Java 21+ (if needed)
-sudo apt install openjdk-21-jdk
+# install Java 25+ (if needed)
+sudo apt install openjdk-25-jdk
 ```
 # Installation
 
@@ -38,7 +38,6 @@ Options:
   -d, --data-path <DATA_PATH>        Base data path
   -c, --config-path <CONFIG_PATH>    Base config path
   --chain <CHAIN>                    Chain to run [default: tiny]
-  -p, --parameters <PARAMETERS>      Parameter override [values: tiny, full]
   -l, --log-level <LOG_LEVEL>        Logging level [default: info]
   --log-file <LOG_FILE>              Log file [default: logs/javajam.log]
   -h, --help                         Print help
@@ -49,7 +48,7 @@ Options:
 
 
 ```bash
-% ./bin/javajam run --help
+% ./bin/avajam run --help
 
 ❤ JavaJAM
 
@@ -58,20 +57,19 @@ Usage: ./bin/javajam run [OPTIONS]
 Options:
   -d, --data-path <DATA_PATH>        Base data path
   -c, --config-path <CONFIG_PATH>    Base config path
-  --chain <CHAIN>                    Chain to run [default: tiny]
-  -p, --parameters <PARAMETERS>      Parameter override [values: tiny, full]
-  -l, --log-level <LOG_LEVEL>        Logging level [default: info]
-  --log-file <LOG_FILE>              Log file [default: logs/javajam.log]
-  --peer-id <PEER_ID>                Peer ID of this node
+  --chain <CHAIN>                    Chain to run. "dev", or the path of a chain spec file [default: dev]
+  -l, --log-level <LOG_LEVEL>        Change logging level [default: info] [possible values: trace, info, error]
+  --peer-id <PEER_ID>                Peer ID of this node.
   --external-ip <EXTERNAL_IP>        External IP address
-  --listen-ip <LISTEN_IP>            IP to listen on [default: 127.0.0.1]
+  --telemetry <TELEMETRY>            IP and port of JAM Tart [format: HOST:PORT]
+  --pvm-backend <PVM_BACKEND>        PVM override [values: interpreter, recompiler]
+  --listen-ip <LISTEN_IP>            IP to listen on [default: 0.0.0.0]
   --port <PORT>                      UDP port [default: 0]
   --rpc-listen-ip <RPC_LISTEN_IP>    RPC IP [default: 127.0.0.1]
   --rpc-port <RPC_PORT>              RPC port [default: 19800]
-  --dev-validator <VALIDATOR>        Configure this node as a dev validator
+  --dev-validator <VALIDATOR_NUM>    Configure this node as a dev validator
   -h, --help                         Print help
-
-```
+   ```
 
 
 # Fuzzer target options

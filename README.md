@@ -94,7 +94,7 @@ Usage: ./bin/javajam fuzz <FUZZ_SOCKET>
 
 Arguments:
   <FUZZ_SOCKET>  Named unix socket for fuzzer to connect too. Ex: /tmp/jam_target.sock
-  -h, --help                         Print help
+  -h, --help     Print help
 
 
 ```

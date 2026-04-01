@@ -73,7 +73,7 @@ Options:
 
 # Example
 ```bash
-% ./bin/javajam --chain conf/polkajam-spec.json run --dev-validator 0 --port 40001 --rpc-port 19800
+% ./bin/javajam run --chain conf/polkajam-spec.json --dev-validator 0 --port 40001 --rpc-port 19800
 
 21:07:16.964 INFO  ❤️ JavaJAM
 21:07:16.968 INFO  📝 Parameters: Custom

@@ -71,6 +71,16 @@ Options:
   -h, --help                         Print help
    ```
 
+# Example
+```bash
+% ./bin/javajam --chain conf/polkajam-spec.json run --dev-validator 0 --port 40001 --rpc-port 19800
+
+21:07:16.964 INFO  ❤️ JavaJAM
+21:07:16.968 INFO  📝 Parameters: Custom
+21:07:16.969 INFO  🧬 Genesis (Header Hash: 0x2bf1...5716)
+21:07:16.969 INFO  ℹ️ Peer ID: 0x4418...9ace
+21:07:18.828 INFO  🗄️ RocksDB initialized (Location: node0/datastore)
+```
 
 # Fuzzer target options
 

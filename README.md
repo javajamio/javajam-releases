@@ -63,8 +63,10 @@ Options:
   --external-ip <EXTERNAL_IP>        External IP address
   --telemetry <TELEMETRY>            IP and port of JAM Tart [format: HOST:PORT]
   --pvm-backend <PVM_BACKEND>        PVM override [values: interpreter, recompiler]
+  --finality-mode <FINALITY_MODE>    Finality mode [values: dummy, grandpa] [default: dummy]
   --listen-ip <LISTEN_IP>            IP to listen on [default: 0.0.0.0]
   --port <PORT>                      UDP port [default: 0]
+  --rpc                              Enable the RPC server on 127.0.0.1
   --rpc-listen-ip <RPC_LISTEN_IP>    RPC IP [default: 127.0.0.1]
   --rpc-port <RPC_PORT>              RPC port [default: 19800]
   --dev-validator <VALIDATOR_NUM>    Configure this node as a dev validator
@@ -73,7 +75,7 @@ Options:
 
 # Run Example
 ```bash
-% ./bin/javajam run --chain conf/polkajam-spec.json --dev-validator 0 --port 40001 --rpc-port 19800
+% ./bin/javajam run --chain conf/polkajam-spec.json --dev-validator 0 --port 40001 --rpc --rpc-port 19800
 
 21:07:16.964 INFO  ❤️ JavaJAM
 21:07:16.968 INFO  📝 Parameters: Custom

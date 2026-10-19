@@ -2,6 +2,19 @@
 
 There is no source code available in this repository.
 
+## Spec Versions
+
+| Spec       | Version | Commit                                                                                                                                 |
+|------------|---------|----------------------------------------------------------------------------------------------------------------------------------------|
+| Grey Paper | 0.8.0   | [gavofyork/graypaper #07f041d](https://github.com/gavofyork/graypaper/tree/07f041dabd073f9018b418e9ee72e79dd2185401) + GP#559 + GP#563 |
+| JAM NP     | -       | [zdave-parity/jam-np #a96dc6b](https://github.com/zdave-parity/jam-np/tree/a96dc6b1870fd7e96d420d64470cb6e82c648864)                   |
+| Grandpa    | -       | [MattHalpinParity/jam-np #03df0db](https://github.com/MattHalpinParity/jam-np/tree/03df0dbd14dea41980423d7aab821924ddd79c74)           |
+| JIP-1      | -       | [polkadot-fellows/JIPs #14b55b8](https://github.com/polkadot-fellows/JIPs/tree/14b55b8135285c2239a5ada8a86337907bc17108)               |
+| JIP-2      | -       | [polkadot-fellows/JIPs #14b55b8](https://github.com/polkadot-fellows/JIPs/tree/14b55b8135285c2239a5ada8a86337907bc17108)               |
+| JIP-3      | -       | [polkadot-fellows/JIPs #14b55b8](https://github.com/polkadot-fellows/JIPs/tree/14b55b8135285c2239a5ada8a86337907bc17108)               |
+| JIP-4      | -       | [polkadot-fellows/JIPs #14b55b8](https://github.com/polkadot-fellows/JIPs/tree/14b55b8135285c2239a5ada8a86337907bc17108)               |
+| JIP-5      | -       | [polkadot-fellows/JIPs #14b55b8](https://github.com/polkadot-fellows/JIPs/tree/14b55b8135285c2239a5ada8a86337907bc17108)               |
+
 # Prerequisites
 
 - JDK 25+
